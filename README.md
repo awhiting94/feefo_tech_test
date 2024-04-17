@@ -20,10 +20,10 @@ I have created a feature file in the e2e folder called 'thermostat.feature'. In 
 
 ## Installation 
 
-• Make sure that both node and npm are installed. I would recommend using the most recent version of node with LTS, this is currently v20.12.2. This will also come with a version of npm. I also recommend installing node using NVM, you can read about this here: https://nodejs.org/en/download/package-manager. This will allow you to control which versions of node you have installed and will give you the flexibility to run different versions of node should you need to. 
-• Clone the repository from Github to a local folder on your machine.
-• Install all dependencies from your folders root directory using 'npm install'. 
-• To run the tests headlessly using my custom npm script you will also need to ensure chrome browser is installed. 
+- Make sure that both node and npm are installed. I would recommend using the most recent version of node with LTS, this is currently v20.12.2. This will also come with a version of npm. I also recommend installing node using NVM, you can read about this here: https://nodejs.org/en/download/package-manager. This will give you the flexibility to switch between different versions of node should you need to.  
+- Clone the repository from Github to a local folder on your machine.
+- Install all dependencies from your folders root directory using 'npm install'. 
+- To run the tests headlessly using my custom npm script you will also need to ensure chrome browser is installed. 
 
 ### Running the tests 
 
