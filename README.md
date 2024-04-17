@@ -9,7 +9,7 @@ Welcome to my submission of the feefo technical test. In this project, you will 
 I have created a feature file in the e2e folder called 'searchMerchant.feature' and the accompanying step definition file is also located in the same folder and is called 'searchMerchant.ts'. I have written the tests in gherkin syntax and they test various scenarios of the search merchant field and the dropdown menus used to filter/sort the searches. I have covered the following functionality:
 
 • When searching for a merchant, that only that merchant is returned in the search results.  
-• When searching for a merchant, that the result contains the correct link to the merchants feefo page. 
+• When searching for a merchant, that the result contains the correct link to the merchants feefo page.
 • When using the category dropdown and selecting the 'Animal & Pets' option, only search results of merchants from that industry are returned. 
 • When using the star rating dropdown and selecting the '5 stars' option, only search results of merchants with that star rating are returned.
 • When using the sort by dropdown and selecting the 'Rating (Low - High)' option, the search results are sorted by their star rating in Ascending order. 
