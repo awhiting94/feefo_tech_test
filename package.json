@@ -1,0 +1,24 @@
+{
+  "name": "feefo-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai-sorted": "^0.2.3",
+    "chai-date-string": "^0.1.0",
+    "chai-sorted": "^0.2.0",
+    "cypress": "^13.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  }
+}
